@@ -2,7 +2,7 @@
 Exercise #1
 Initialize an empty array below in the variable numbers.
 */
-var numbers;
+var numbers; var x = [];
 console.log('Hello World')
 
 /*
@@ -13,6 +13,20 @@ Using the loop provided for you below, use an array's push method to insert the 
 for(var i=0;i<10;i++){
     //use the array push() method here.
 }
+x.push ('1');
+x.push ('2');
+x.push ('3');
+x.push ('4');
+x.push ('5');
+x.push ('6');
+x.push ('7');
+x.push ('8');
+x.push ('9');
+x.push ('10');
+
+console.log('x')
+
+
 
 
 /*
@@ -20,6 +34,8 @@ Exercise #3
 Test that you used the array push method correctly by printing the sum of the values at position 3 and 6 of the array (use the console.log() function to print to the console). 
 The outputted value should be 9.
 */
+console.log(3+6)
+
 
 
 

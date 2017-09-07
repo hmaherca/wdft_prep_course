@@ -2,6 +2,11 @@
 Exercise #1
 Create a for loop that prints out the numbers 1 to 100 in the console.
 */
+for (var i = 0; i < 100; i++) {
+    console.log(i);
+}
+   
+console.log('loop is done')
 
 
 
@@ -17,3 +22,9 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 */
+for (var x = #; x < #######; x++) {
+    console.log(x);
+}
+
+console.log('loop is done');
+   

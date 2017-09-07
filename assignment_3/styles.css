@@ -29,12 +29,14 @@ div
 
 /* FIRST ROW : FLOATS; */
 .a1 {
+	float: right;
 }
 
 .b1 {
 }
 
 .c1 {
+	float: right;
 }
 
 .d1 {
@@ -43,27 +45,41 @@ div
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	
 }
 
 .b2 {
+	display: none;
 }
 
 .c2 {
+	display: inline;
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
 
 .a3 {
+	position: relative;
 }
 
 .b3 {
+	position: absolute;
+    bottom: 469px;
+    left: 149px;
 }
 
 .c3 {
+	position: absolute;
+    top: 505px;
+    right: 10px
 }
 
 .d3 {
+	position: absolute;
+    top: 281px;
+    right: 624px;
 }

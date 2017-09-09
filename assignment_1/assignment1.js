@@ -2,7 +2,7 @@
 Exercise #1
 Initialize an empty array below in the variable numbers.
 */
-var numbers; var x = [];
+var numbers = [];
 console.log('Hello World')
 
 /*
@@ -10,21 +10,24 @@ Exercise #2
 Using the loop provided for you below, use an array's push method to insert the nummbers  0 to 10 into positions 0 through 10 of the numbers array you just initialized above.'If you're not sure how to use the array push method go back and re read this module on data strucutres.'
 */
 
-for(var i=0;i<10;i++){
-    //use the array push() method here.
-}
-x.push ('1');
-x.push ('2');
-x.push ('3');
-x.push ('4');
-x.push ('5');
-x.push ('6');
-x.push ('7');
-x.push ('8');
-x.push ('9');
-x.push ('10');
 
-console.log('x')
+    //use the array push() method here.
+for(var i=0;i<=10;i++){
+
+var number = new Array ();
+numbers.push ('1');
+numbers.push ('2');
+numbers.push ('3');
+numbers.push ('4');
+numbers.push ('5');
+numbers.push ('6');
+numbers.push ('7');
+numbers.push ('8');
+numbers.push ('9');
+var length = number.push ('10');
+}
+
+console.log(numbers);
 
 
 
@@ -58,12 +61,18 @@ console.log(sum);
 Exercise #5
 Create an empty object and assign it the variable car below.
 */
+var myObject = {car}
 var car;
 
 /*
 Exercise #5
 Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputing property make to the console. You should see the value "black" printed out.
 */
+var car = {
+    colour:'black',
+}
+
+console.log(car.colour);
 
 
 

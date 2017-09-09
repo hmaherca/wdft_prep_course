@@ -22,9 +22,10 @@ Write a loop that makes seven calls to console.log to output the following trian
 ######
 #######
 */
-for (var x = #; x < #######; x++) {
-    console.log(x);
-}
+var x = '';
 
-console.log('loop is done');
+for (var i = 0; i < 7; i++) {
+    x = x + '#';
+    console.log(x)
+}
    
